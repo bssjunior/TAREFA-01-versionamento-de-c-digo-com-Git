@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    body > header {
+        background-color: rgb(247, 243, 243);
+        padding: 16px 0;
+        }
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    header li {
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 16px ;
+    }
+
+    header li a {
+        text-decoration: none;
+    }
+    .container {
+        width: 1366px;
+        margin: 0 auto 0 auto;
+    }
+    .articles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #technology .container {
+        height: 100vh;
+        line-height: 3vh;
+        text-align: center;
+        }
+    #technology img h3 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #technology .articles h3 {
+    display: block;
+    margin: 0 auto;
+    }
+    
+    #technology .articles img h3 {
+       width: 150%;
+        }
+    .articles article img {
+    /*  height: 180px; */ 
+    width: 100%;
+
+    ;
+    }
+    .articles article {
+        width:30%;
+    }
+h3 { color: rgba(226, 19, 19, 0.916);}
+
+#economy h2 {color: rgba(2, 74, 9, 0.966);}
+
+
+section {
+    padding: 16px 0;
+    }
+
+    section h2, 
+   .articles article { 
+    margin-bottom: 16px;   
+    }
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: grey;
+    color: black;
+    padding:  8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 60px;
+}
+
+#sports {
+    background-color: rgba(0, 225, 0,0.11) ;
+}
+#sports .articles article a {
+    background-color: rgba(131, 225, 0, 0.493);
+
+}
+
+#economy {
+    background-color: rgb(184, 224, 211);
+}
+#economy .articles article a {
+    background-color: rgb(226, 125, 43);
+}
+
+#entertainment {
+    background-color: rgba(144, 144, 173, 0.681);
+}
+#entertainment .articles article summary {
+    background-color: rgb(226, 220, 43);
+}
+    
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+details summary {
+    font-style: italic;
+}
+#technology {
+    background-color: rgba(10, 10, 191, 0.314);
+}
+#technology .articles article summary {
+    background-color: rgb(43, 223, 226);
+}
+    
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+details summary {
+    font-style: italic;
+}
