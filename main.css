@@ -122,17 +122,7 @@ section h2 {
 
 #entertainment {
     background-color: rgba(144, 144, 173, 0.681);
-}
-#entertainment .articles article summary {
-    background-color: rgb(226, 220, 43);
-}
-    
-summary {
-    cursor: pointer;
-    font-weight: bold;
-}
-details summary {
-    font-style: italic;
+
 }
 #technology {
     background-color: rgba(10, 10, 191, 0.314);
