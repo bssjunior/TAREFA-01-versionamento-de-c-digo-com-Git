@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <form id="form-tarefa">
+        <ul>
+            <li>Preencha o campo "ADD TAREFA" para adicionar</li>
+            <li>Clique no botão "CHECK IN" para cadastrar a tarefa.</li>
+            <li>Ao completar a Tarefa Click na atividade para concluir</li>
+            <li>Se tiver cadastrado errado click no botão "Excluir"</li>
+        </ul>
+        <input type="text" id="nome-tarefa" placeholder="Add TAREFA" required>
+        <button type="submit">CHECK IN</button>
+     </form>
+    
+    <table id="lista-tarefas">
+        <thead>
+            <tr>
+                <th>Tarefas</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+    </table>
+    
+        
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
