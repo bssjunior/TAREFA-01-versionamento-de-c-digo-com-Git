@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="/styles/fonts.css">
-    <link rel="stylesheet" href="/styles/media.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/fonts.css">
+    <link rel="stylesheet" href="/media.css">
     <title>Landing Page</title>
 </head>
 <body>
@@ -29,11 +29,33 @@
             <h2><span>Increva-se agora</span></h2>
             <h2>Na Newslatter</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quibusdam numquam rerum, impedit delectus exercitationem voluptatum voluptatem natus debitis dolores dolor sunt necessitatibus dignissimos perferendis labore consectetur in sed quis.</p>
-        <form>
-            <input type="text" placeholder="Nome">
-            <input type="email" placeholder="E-mail">
-            <input type="submit" value="Enviar >">
-        </form> 
+        <form id="cadastro-form" action="#" method="post">
+            <div class="form-group">
+              <label for="nome">Nome Completo:</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone:</label>
+              <input type="text" id="telefone" name="telefone" required>
+            </div>
+            <div class="form-group">
+              <label for="cpf">CPF:</label>
+              <input type="text" id="cpf" name="cpf" required>
+            </div>
+            <div class="form-group">
+              <label for="endereco">Endereço Completo:</label>
+              <input type="text" id="endereco" name="endereco" required>
+            </div>
+            <div class="form-group">
+              <label for="cep">CEP:</label>
+              <input type="text" id="cep" name="cep" required>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
         </aside>
 
         <article>
@@ -41,6 +63,8 @@
         </article>
     
     </main>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+      <script src="./main.js"></script>
 </body>
 </html>
